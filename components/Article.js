@@ -101,12 +101,6 @@ const data = [
   }
 ];
 
-/*
-  Step 1: Write a component called 'articleMaker' to create an article.
-  Your component is a function that takes an article object as its only argument,
-  and returns a DOM node looking like the one below:
-*/
-
 const articles =document.querySelector('.articles')
 
 function articleMaker(article) {
